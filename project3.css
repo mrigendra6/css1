@@ -1,0 +1,38 @@
+#container{
+    height:200px;
+    width:300px;
+    background-color: rgb(5, 5, 78);
+    position: relative;
+}
+.box{
+    background-color:rgb(141, 8, 8);
+   box-sizing: border-box;
+}
+.first,.third{
+    height:55px;
+    width: 300px;
+}
+/* .third{
+    height:50px;
+    background-color: w;
+} */
+.third{
+    position: absolute;
+    top: 160px;
+}
+.second{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+ /* .second{
+    margin: auto;
+   
+ } */
+
+ 
